@@ -1,0 +1,25 @@
+<Packages>
+    <ApplicationName>OpenMV IDE</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>org.qtproject.qtcreator</Name>
+        <Title>OpenMV IDE</Title>
+        <Description>Installs OpenMV IDE.</Description>
+        <Version>2.6.9</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2021-04-08</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>org.qtproject.qtcreator.application</Name>
+        <Title>OpenMV IDE Application</Title>
+        <Description>The IDE of choice for OpenMV Cam Development.</Description>
+        <Version>2.6.9</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2021-04-08</InstallDate>
+        <Size>423883361</Size>
+        <AutoDependOn>org.qtproject.qtcreator</AutoDependOn>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+</Packages>

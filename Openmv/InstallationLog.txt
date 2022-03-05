@@ -1,0 +1,87 @@
+************************************* Invoked: 周四 4月 8 00:07:33 2021
+[0] Arguments: C:\Users\86182\Downloads\openmv-ide-windows-2.6.9.exe
+[11] Operations sanity check succeeded.
+[587] Loaded control script ":/metadata/installer-config/controlscript_qs.qs"
+[587] Using control script: ":/metadata/installer-config/controlscript_qs.qs"
+[21915] Control script callback "TargetDirectoryPageCallback" does not exist.
+[36080] Control script callback "StartMenuDirectoryPageCallback" does not exist.
+[41266] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "172.47 GB"
+[41266] Installation space required: "660.25 MB" Temporary space required: "256.00 MB" Local repository size: "0.00 字节"
+[41266] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[41742] Control script callback "PerformInstallationPageCallback" does not exist.
+[41795] backup  operation: Mkdir
+[41795] 	- arguments: C:/Users/86182/Desktop/Openmv
+[41797] Done
+[41805] perform  operation: Mkdir
+[41805] 	- arguments: C:/Users/86182/Desktop/Openmv
+[41807] Done
+[41809] Install size: 2 components
+[41856] backup org.qtproject.qtcreator.application operation: Extract
+[41856] 	- arguments: installer://org.qtproject.qtcreator.application/2.6.9openmv-ide-windows-2.6.9-installer-archive.7z, C:\Users\86182\Desktop\Openmv
+[41856] Done
+[41856] perform org.qtproject.qtcreator.application operation: Extract
+[41856] 	- arguments: installer://org.qtproject.qtcreator.application/2.6.9openmv-ide-windows-2.6.9-installer-archive.7z, C:\Users\86182\Desktop\Openmv
+[87184] Done
+[87185] backup org.qtproject.qtcreator.application operation: CreateShortcut
+[87185] 	- arguments: C:\Users\86182\Desktop\Openmv\bin\openmvide.exe, C:\Users\86182\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OpenMV IDE/OpenMV IDE.lnk, workingDirectory=C:/Users/86182
+[87185] Done
+[87185] perform org.qtproject.qtcreator.application operation: CreateShortcut
+[87185] 	- arguments: C:\Users\86182\Desktop\Openmv\bin\openmvide.exe, C:\Users\86182\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OpenMV IDE/OpenMV IDE.lnk
+[87225] Done
+[87225] backup org.qtproject.qtcreator.application operation: CreateShortcut
+[87225] 	- arguments: C:\Users\86182\Desktop\Openmv\bin\openmvide.exe, C:\Users\86182\Desktop/OpenMV IDE.lnk, workingDirectory=C:/Users/86182
+[87226] Done
+[87226] perform org.qtproject.qtcreator.application operation: CreateShortcut
+[87226] 	- arguments: C:\Users\86182\Desktop\Openmv\bin\openmvide.exe, C:\Users\86182\Desktop/OpenMV IDE.lnk
+[87705] Done
+[87705] backup org.qtproject.qtcreator.application operation: CreateShortcut
+[87705] 	- arguments: C:\Users\86182\Desktop\Openmv/OpenMVIDEUninst.exe, C:\Users\86182\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OpenMV IDE/Uninstall.lnk, workingDirectory=C:/Users/86182
+[87705] Done
+[87706] perform org.qtproject.qtcreator.application operation: CreateShortcut
+[87706] 	- arguments: C:\Users\86182\Desktop\Openmv/OpenMVIDEUninst.exe, C:\Users\86182\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OpenMV IDE/Uninstall.lnk
+[87726] Done
+[87727] Starting elevated process "C:\\Users\\86182\\Downloads\\openmv-ide-windows-2.6.9.exe" with arguments " --startserver PRODUCTION,{e56da635-3597-4957-9fd5-985fa1bceb71},{b28f28b8-0a23-4ed7-ae2d-aee3f232ed1d}"
+[109460] Finished starting elevated process.
+[109495] "Execute" as admin: true
+[109495] backup org.qtproject.qtcreator.application operation: Execute
+[109495] 	- arguments: {2,512}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\ftdi\ftdi.cmd
+[109495] Done
+[109496] perform org.qtproject.qtcreator.application operation: Execute
+[109496] 	- arguments: {2,512}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\ftdi\ftdi.cmd
+[109539] cmd" started, arguments: "/c C:\\Users\\86182\\Desktop\\Openmv\\share\\qtcreator\\drivers\\ftdi\\ftdi.cmd
+[114624] Done
+[114626] "Execute" as admin: true
+[114626] backup org.qtproject.qtcreator.application operation: Execute
+[114626] 	- arguments: {1,256}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\openmv\openmv.cmd
+[114626] Done
+[114626] perform org.qtproject.qtcreator.application operation: Execute
+[114626] 	- arguments: {1,256}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\openmv\openmv.cmd
+[114627] cmd" started, arguments: "/c C:\\Users\\86182\\Desktop\\Openmv\\share\\qtcreator\\drivers\\openmv\\openmv.cmd
+[145433] Done
+[145434] "Execute" as admin: true
+[145434] backup org.qtproject.qtcreator.application operation: Execute
+[145434] 	- arguments: {1,256}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\dfuse.cmd
+[145434] Done
+[145434] perform org.qtproject.qtcreator.application operation: Execute
+[145434] 	- arguments: {1,256}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\dfuse.cmd
+[145435] cmd" started, arguments: "/c C:\\Users\\86182\\Desktop\\Openmv\\share\\qtcreator\\drivers\\dfuse.cmd
+[148629] Done
+[148630] "Execute" as admin: true
+[148630] backup org.qtproject.qtcreator.application operation: Execute
+[148630] 	- arguments: {0,3010}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\vcr.cmd
+[148630] Done
+[148631] perform org.qtproject.qtcreator.application operation: Execute
+[148631] 	- arguments: {0,3010}, cmd, /c, C:\Users\86182\Desktop\Openmv\share\qtcreator\drivers\vcr.cmd
+[148632] cmd" started, arguments: "/c C:\\Users\\86182\\Desktop\\Openmv\\share\\qtcreator\\drivers\\vcr.cmd
+[208789] Done
+[208792] backup org.qtproject.qtcreator.application operation: License
+[208792] 	- arguments:
+[208792] Done
+[208793] perform org.qtproject.qtcreator.application operation: License
+[208793] 	- arguments:
+[208798] Done
+[208814] Writing maintenance tool: "C:\\Users\\86182\\Desktop\\Openmv/OpenMVIDEUninst.exe.new"
+[208883] Wrote permissions for maintenance tool.
+[210876] Maintenance tool restart: false.
+[210882] Control script callback "FinishedPageCallback" does not exist.
+[218796] run application as detached process: "C:\\Users\\86182\\Desktop\\Openmv\\bin\\openmvide.exe" () "C:/Users/86182"
